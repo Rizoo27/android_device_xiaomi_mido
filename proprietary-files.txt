@@ -976,6 +976,7 @@ vendor/lib64/libmmosal.so|e7a5dadf0e2600a3a9df4e74474ea63cb8852d5f
 
 # aptX
 vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so
+vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so
 vendor/lib/libaptXScheduler.so
 
 # Modem - from oxygen (MiMax 2)
