@@ -392,7 +392,7 @@
     <bool name="config_supportDoubleTapWake">true</bool>
 	
     <!-- Display low battery warning when battery level dips to this value -->
-    <integer name="config_lowBatteryWarningLevel">6</integer>
+    <integer name="config_lowBatteryWarningLevel">0</integer>
 	
 	<!-- Control whether Night display is available. This should only be enabled on devices with HWC 2.0 or higher. -->
     <bool name="config_nightDisplayAvailable">true</bool>
