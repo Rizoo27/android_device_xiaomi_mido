@@ -96,6 +96,14 @@ ro.fm.transmitter=false
 # Frp
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
+# Hardware Info
+ro.device.chipset=Qualcomm MSM8953 Snapdragon 625
+ro.device.cpu=Octa-core 2.0 GHz Cortex-A53
+ro.device.gpu=Qualcomm Adreno 506
+ro.device.rear_cam=13 MP
+ro.device.front_cam=5 MP
+ro.device.screen_res=1080x1920 pixels
+
 # GPS
 persist.gps.qc_nlp_in_use=1
 persist.loc.nlp_name=com.qualcomm.location
