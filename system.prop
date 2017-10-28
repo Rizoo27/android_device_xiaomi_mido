@@ -86,7 +86,7 @@ ro.sf.lcd_density=480
 # DRM
 drm.service.enabled=true
 
-#Enable B service adj transition by default
+# Enable B service adj transition by default
 ro.sys.fw.bservice_enable=true
 ro.sys.fw.bservice_limit=5
 ro.sys.fw.bservice_age=5000
@@ -94,10 +94,10 @@ ro.sys.fw.bservice_age=5000
 # Fingerprint
 persist.qfp=false
 
-# Fm
+# FM
 ro.fm.transmitter=false
 
-# Frp
+# FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
 # Hardware Info
@@ -186,7 +186,7 @@ ro.sys.sdcardfs=true
 # Time Services
 persist.timed.enable=true
 
-# Tcp
+# TCP
 net.tcp.2g_init_rwnd=10
 
 # Trim properties
@@ -196,5 +196,5 @@ ro.sys.fw.trim_empty_percent=100
 ro.sys.fw.trim_cache_percent=100
 ro.sys.fw.trim_enable_memory=2147483648
 
-# Wifi
+# WiFi
 wifi.interface=wlan0
