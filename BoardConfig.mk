@@ -163,6 +163,9 @@ TARGET_NO_RPC := true
 # Filesystem
 TARGET_ANDROID_FILESYSTEM_CONFIG_H := $(LOCAL_PATH)/android_filesystem_config.h
 
+#HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_mido
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
