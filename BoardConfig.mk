@@ -128,13 +128,14 @@ TARGET_HW_DISK_ENCRYPTION := true
 
 # Dexpreopt
 ifeq ($(HOST_OS),linux)
-  ifneq ($(TARGET_BUILD_VARIANT),eng)
-    ifeq ($(WITH_DEXPREOPT),)
-      WITH_DEXPREOPT := true
-    endif
-  endif
+ifneq ($(TARGET_BUILD_VARIANT),userdebug)
+WITH_DEXPREOPT := true
+WITH_DEXPREOPT_DEBUG_INFO := false
+USE_DEX2OAT_DEBUG := false
+DONT_DEXPREOPT_PREBUILTS := true
+WITH_DEXPREOPT_PIC := true
 endif
-WITH_DEXPREOPT_BOOT_IMG_ONLY ?= true
+endif
 
 # Display
 MAX_EGL_CACHE_KEY_SIZE := 12*1024
@@ -166,7 +167,7 @@ TARGET_NO_RPC := true
 # Filesystem
 TARGET_ANDROID_FILESYSTEM_CONFIG_H := $(LOCAL_PATH)/android_filesystem_config.h
 
-#HWUI
+# HWUI
 HWUI_COMPILE_FOR_PERF := true
 
 # Init
