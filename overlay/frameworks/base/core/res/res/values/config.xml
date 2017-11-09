@@ -399,4 +399,8 @@
 	
 	<!-- Flag indicating which package name can access the persistent data partition -->
     <string name="config_persistentDataPackageName" translatable="false">com.google.android.gms</string>
+	
+    <!-- Button illumination -->
+    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+    <integer name="config_buttonBrightnessSettingDefault">62</integer>
 </resources>
