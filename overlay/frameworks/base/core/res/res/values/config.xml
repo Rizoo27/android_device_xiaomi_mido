@@ -396,8 +396,4 @@
 	
 	<!-- Control whether Night display is available. This should only be enabled on devices with HWC 2.0 or higher. -->
     <bool name="config_nightDisplayAvailable">true</bool>
-
-    <!-- Button illumination -->
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
-    <integer name="config_buttonBrightnessSettingDefault">62</integer>
 </resources>
