@@ -396,4 +396,7 @@
 	
 	<!-- Control whether Night display is available. This should only be enabled on devices with HWC 2.0 or higher. -->
     <bool name="config_nightDisplayAvailable">true</bool>
+	
+    <!-- True if Unprocessed audio source supports the required frequency range and level -->
+    <bool name="config_supportAudioSourceUnprocessed">true</bool>
 </resources>
