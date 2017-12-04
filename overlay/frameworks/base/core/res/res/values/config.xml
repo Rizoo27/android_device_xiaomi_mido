@@ -56,7 +56,6 @@
         <item>2627</item>
         <item>3941</item>
         <item>8867</item>
-        <item>10000</item>
     </integer-array>
 
     <!-- Array of output values for LCD backlight corresponding to the LUX values
@@ -83,7 +82,6 @@
         <item>152</item>
         <item>174</item>
         <item>199</item>
-        <item>226</item>
         <item>255</item>
     </integer-array>
 
